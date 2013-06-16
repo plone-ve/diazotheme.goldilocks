@@ -23,7 +23,7 @@ setup(name='diazotheme.goldilocks',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'diazo.framework.goldilocks',
+          'diazoframework.goldilocks',
       ],
       entry_points="""
       [z3c.autoinclude.plugin]
