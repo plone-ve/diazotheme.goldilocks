@@ -12,7 +12,7 @@
   <!-- Head rules
        ================================================================== -->
   <xi:include href="/++framework++goldilocks/rules/head/base.xml"/>
-  <xi:include href="/++theme++goldilocks-example/rules/head/theme.xml"/>
+  <xi:include href="/++theme++goldilocks/rules/head/theme.xml"/>
 
   <after theme="/html/head/title">
 <style>
