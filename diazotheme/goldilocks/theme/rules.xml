@@ -16,7 +16,7 @@
 
   <!-- Body rules
        ================================================================== -->
-  <xi:include href="/++framework++plone/rules/logo/black-32.xml"/>
+  <xi:include href="/++framework++plone/rules/logo/default-32.xml"/>
   <xi:include href="/++framework++plone/rules/utility/clean.xml"/>
 
   <!-- Place the content 
