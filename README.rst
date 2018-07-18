@@ -162,33 +162,58 @@ Resources
 This package is the parent of all Plone diazo themes and 
 provides rule that are practical to use in other diazo themes.
 
-The resources of this framework can be reached through
 
-- **Goldilocks Inverted Theme**
+Goldilocks Inverted Theme
+-------------------------
+
+The resources of this theme can be reached through
+
     ``/++theme++goldilocks-inverted``
-- **Goldilocks Starter Theme**
-    ``/++theme++goldilocks-starter``
-- **Goldilocks Theme**
-    ``/++theme++goldilocks``
 
-There are placed at ``diazotheme.goldilocks/diazotheme/goldilocks/`` directory 
-with following resources files:
+There are placed at ``diazotheme.goldilocks/diazotheme/goldilocks/inverted`` 
+directory with following resources files:
 
 ::
 
     _ inverted
-      Provides the resources from *Goldilocks Inverted Theme*.
+      Provides the resources from "Goldilocks Inverted Theme".
       _ manifest.cfg
       _ preview.png
       _ rules.xml
-    
+
+
+Goldilocks Starter Theme
+------------------------
+
+The resources of this theme can be reached through
+
+    ``/++theme++goldilocks-starter``
+
+There are placed at ``diazotheme.goldilocks/diazotheme/goldilocks/starter`` 
+directory with following resources files:
+
+::
+
     _ starter
-      Provides the resources from *Goldilocks Starter Theme*.
+      Provides the resources from "Goldilocks Starter Theme".
       _ manifest.cfg
       _ rules.xml
-      
+
+
+Goldilocks Theme
+----------------
+
+The resources of this theme can be reached through
+
+    ``/++theme++goldilocks``
+
+There are placed at ``diazotheme.goldilocks/diazotheme/goldilocks/theme`` 
+directory with following resources files:
+
+::
+
     _ theme
-      Provides the resources from *Goldilocks Theme*.
+      Provides the resources from "Goldilocks Theme".
       _ rules
         _ head
           _ theme.xml
