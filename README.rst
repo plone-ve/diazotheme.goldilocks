@@ -7,7 +7,7 @@ Introduction
 ============
 
 ``diazotheme.goldilocks`` package provides diazo themes based on the `Goldilocks Approach CSS framework`_ 
-using the **theming** and **packaging** features available for create Diazo_ theme
+using the **theming** and **packaging** features available for create `Diazo`_ theme
 using `plone.app.theming`_.
 
 ``diazotheme.goldilocks`` package contains the following diazo implementations: 
@@ -116,8 +116,10 @@ Requirements
 ============
 
 - From the Plone 4.1.x To the Plone 4.3 latest version (https://plone.org/download)
-- The ``plone.app.theming`` package (*You will need enable it to use this package*)
-
+- The ``plone.app.theming`` package (*You will need enable it via "Add-ons" control 
+  panel to use this package*)
+- The ``diazoframework.goldilocks`` package (*You will need enable it via "buildout" 
+  configuration to use this package*)
 
 Features
 ========
@@ -249,7 +251,7 @@ Amazing contributions
 You can find an updated list of package contributors on https://github.com/TH-code/diazotheme.goldilocks/contributors
 
 .. _`Goldilocks Approach CSS framework`: http://goldilocksapproach.com/
-.. _`diazoframework.goldilocks`: https://github.com/TH-code/diazoframework.goldilocks
-.. _`diazotheme.goldilocks`: https://github.com/TH-code/diazotheme.goldilocks
 .. _`Diazo`: http://diazo.org
 .. _`plone.app.theming`: https://pypi.org/project/plone.app.theming/
+.. _`diazoframework.goldilocks`: https://github.com/TH-code/diazoframework.goldilocks
+.. _`diazotheme.goldilocks`: https://github.com/TH-code/diazotheme.goldilocks
